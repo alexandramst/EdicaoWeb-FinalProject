@@ -1,0 +1,364 @@
+/* Estilos para o header */
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    border-bottom: 2px solid #ddd;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    max-height: 150px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #f8e505;
+}
+
+/* Estilos para o main */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(224, 221, 117);
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o h1 */
+#home h1 {
+    color: #397dc9;
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+/* Estilo para o parágrafo */
+#home p {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+/* Estilo para a imagem */
+.playlandhome {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.playlandhome img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para o footer */
+footer {
+    background-color: #92170b;
+    color: black;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-column {
+    width: 30%;
+}
+
+.footer-column p {
+    margin-bottom: 10px;
+}
+
+.footer-column a {
+    color: #397dc9;
+    text-decoration: none;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para o texto centralizado no rodapé */
+.footer-center {
+    text-align: center;
+    color: #818079;
+    margin: 20px 0 10px 0;
+    font-size: 14px;
+}
+
+/* Contactos */
+
+/* Estilo do título */
+#contactos h2 {
+    text-align: center;
+    color: #397dc9;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Estilo do formulário */
+form {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #92170b;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Estilo para as labels */
+label {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: black;
+    display: block;
+    margin-bottom: 15px;
+}
+
+/* Estilo dos campos do formulário */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    max-width: 570px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="text"]::placeholder {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    background-color: #397dc9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    display: block;
+    margin: 20px auto 0 auto;
+}
+
+input[type="submit"]:hover {
+    background-color: #2c5b8a;
+}
+
+/* Estilos para informações de contacto e redes sociais */
+.contact-map-social {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+/* Coluna de informações de contacto */
+.contact-info {
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    border: 2px solid #92170b;
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Estilo do título da coluna de informações de contacto */
+.contact-info h3 {
+    text-align: center;
+    color: #397dc9;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.contact-info p a {
+    color: #397dc9;
+    text-decoration: none;
+}
+
+.contact-info p a:hover {
+    text-decoration: underline;
+}
+
+/* Coluna do mapa */
+.contact-map {
+    height: 400px;
+    margin-top: 20px;
+    flex-basis: 100%;
+}
+
+/* Centraliza o mapa dentro do container */
+.contact-map iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Coluna das redes sociais */
+.socialnetworks {
+    flex-basis: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.socialnetworks a {
+    margin: 0 15px;
+    font-size: 36px; /* Aumenta o tamanho dos ícones das redes sociais */
+    color: #397dc9;
+}
+
+.socialnetworks a:hover {
+    color: #f8e505;
+}
+
+/* Estilos para a secção Sobre Nós */
+#sobrenos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#sobrenos .texto {
+    text-align: justify; /* Justifica o texto */
+    text-align-last: left; /* Opcional: alinha a última linha à esquerda */
+    max-width: 60%;
+}
+
+#sobrenos .imagem {
+    max-width: 30%;
+    text-align: left; /* Alinha a imagem à esquerda dentro do seu conteiner */
+}
+
+#sobrenos .imagem img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#sobrenos .cta-button {
+    display: inline-block; 
+    padding: 15px 30px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #397dc9;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#sobrenos .cta-button:hover {
+    background-color: #2c5b8a;
+    transform: scale(1.05); /* Aumenta o botão um pouco ao passar o rato */
+}
+
+/* Estilos para a secção de serviços */
+#servicos {
+    padding: 20px;
+    background-color: #fff; /* Cor de fundo para a secção de serviços */
+    max-width: 1000px; /* Limita a largura máxima da secção */
+    margin: 20px auto; /* Centraliza a secção horizontalmente */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+}
+
+#servicos h2 {
+    color: #397dc9;
+    text-align: center; /* Centraliza o título */
+    font-size: 2em; /* Define o tamanho da fonte */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+/* Estilos para a tabela */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove espaços entre células */
+    margin: 20px 0; /* Espaço acima e abaixo da tabela */
+}
+
+th, td {
+    padding: 15px; /* Espaço interno das células */
+    border: 1px solid #ddd; /* Cor da borda das células */
+    text-align: center; /* Centraliza o texto nas células */
+}
+
+th {
+    background-color: #397dc9; /* Cor de fundo para os cabeçalhos da tabela */
+    color: white; /* Cor do texto dos cabeçalhos */
+    font-size: 1.2em; /* Tamanho da fonte dos cabeçalhos */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Cor de fundo para linhas pares */
+}
+
+h4 {
+    text-align: center; /* Centraliza o texto do título menor */
+    color: #397dc9; /* Cor do texto do título menor */
+    font-size: 1em; /* Tamanho da fonte */
+    margin-top: 20px; /* Espaço acima do título menor */
+}
+
+/* Estilos para os botões */
+button {
+    background-color: #397dc9; /* Cor de fundo dos botões */
+    color: white; /* Cor do texto dos botões */
+    border: none; /* Remove a borda padrão */
+    padding: 10px 20px; /* Espaço interno dos botões */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor para uma mãozinha ao passar sobre o botão */
+    font-size: 16px; /* Tamanho da fonte */
+    margin: 10px; /* Espaço ao redor dos botões */
+    display: inline-block; /* Permite que os botões fiquem lado a lado */
+    text-align: center; /* Centraliza o texto dentro dos botões */
+
+}
+
+button:hover {
+    background-color: #2c5b8a; /* Cor de fundo dos botões ao passar o rato */
+    transform: scale(1.05); /* Leve aumento de tamanho ao passar o rato */
+}
